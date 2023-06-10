@@ -1,0 +1,287 @@
+{
+    "intents":[
+        {
+            "tag":"greeting",
+            "patterns":[
+                "Hi",
+                "Hey",
+                "Hello",
+                "Is there anyone?",
+                "Good Morning",
+                "Good day"
+            ],
+            "responses":[
+                "Hey",
+                "Hi,Good morning",
+                "How can I help you"
+            ]
+        },
+        {
+            "tag":"Good bye",
+            "patterns":[
+                "Bye",
+                "Thank you for information,bye",
+                "Good Bye",
+                "Good bye"
+                
+            ],
+            "responses":[
+                "See you later,Thanks for visiting",
+                "Bye,come back soon",
+                "Have a nice Day",
+                "Nice to meet you"
+            ]
+        },
+        {
+            "tag":"Thanks",
+            "patterns":[
+                "Thank you",
+                "Thanks",
+                "Thank's helpful",
+                "Thanks a lot"
+            ],
+            "responses":[
+                "Any time",
+                "Not mentioned",
+                "its pleasure"
+
+            ]
+        },
+        {
+            "tag":"fee",
+            "patterns":[
+                "How much of the fee we should pay",
+                "fee"
+            ],
+            "responses":[
+                "fee for CSE:120000",
+                "fee for CSE(AI&ML):100000",
+                "fee for CSE-AI:120000",
+                "fee for CSE-IOT:80000",
+                "fee for ECE:60000",
+                "fee for civil:50000",
+                "fee for Mechanical: 50000",
+                "fee for EEE:50000"
+
+
+            ]
+        },
+        {
+            "tag":"Facilities",
+            "patterns":[
+                "facilities in vits",
+                "facilities"
+            ],
+            "responses":[
+                "Experienced and Friendly faculty,Doubt clearing sessions,Research &Development center,Hostel,Cafeteria,Enormous library(having 25000+books) and Information Centre,Massive lab facility,Seminar hall,Transportation(van),Placements."
+
+            ]
+        },
+        {
+            "tag":"Branch",
+            "patterns":[
+                "What are the branches you are offering?",
+                "branches in your college?",
+                "branches",
+                "Branches",
+                "Courses",
+                "courses",
+                "how many branches are you offering",
+                "what are the branches do  you have?", 
+                "how many branches do you have?",
+                "what type of branches are you offering?"
+            ],
+            "responses":[
+                "We are offering so many branches: Specializations like \n\n1.CSE-AI(Artificial Intelligence) \n\n2.CSE-AI&ML(Artificial Intelligence and Machine Learning) \n\n3.CSE-IOT(Internet of Things) \n\n4.ECE \n\n5.MECHANICAL \n\n6.CIVIL \n\n7.EEE"
+            ]
+        },
+        {
+            "tag":"CSE",
+            "patterns":[
+                "How much of the fee we should pay for CSE",
+                "fee for CSE",
+                "CSE fee",
+                "How much of the fee we should pay for Computer Science Engineering",
+                "fee for Computer Science Engineering"
+            ],
+            "responses":[
+                "fee for CSE:120000"
+
+            ]
+        },
+        {
+            "tag":"EEE",
+            "patterns":[
+                "How much of the fee we should pay for EEE",
+                "fee for EEE",
+                "EEE fee",
+                "fee for Electrical and Electronics Engineering (EEE)",
+                "fee for Electrical and Electronics Engineering",
+                "How much of the fee we should pay for Electrical and Electronics Engineering (EEE)",
+                "How much of the fee we should pay for Electrical and Electronics Engineering"
+            ],
+            "responses":[
+                "fee for EEE:50000"
+
+            ]
+        },
+
+        {
+            "tag":"ECE",
+            "patterns":[
+                "How much of the fee we should pay for ECE",
+                "fee for ECE",
+                "ECE fee",
+                "fee for Electronics and Communications Engineering",
+                "fee for Electronics and Communications Engineering(ECE)",
+                "How much of the fee we should pay for Electronics and Communications Engineering"
+            ],
+            "responses":[
+                "fee for ECE:60000"
+
+            ]
+        },
+        {
+            "tag":"CSE-AI&ML",
+            "patterns":[
+                "How much of the fee we should pay for CSE-AI&ML",
+                "fee for CSE-AI&ML",
+                "fee for CSE(AI&ML)",
+                "fee for CSE(AI-ML)",
+                "CSE-AI&ML fee",
+                "CSE(AI&ML) fee",
+                "How much of the fee we should pay for CSE(AI&ML)",
+                "How much of the fee we should pay for CSE(AI-ML)",
+                "fee for Computer Science Engineering with AI and ML",
+                "How much of the fee we should pay for Computer Science Engineering with AI and ML"
+
+            ],
+            "responses":[
+                "fee for CSE(AI&ML):100000"
+
+            ]
+        },
+        {
+            "tag":"CSE-AI",
+            "patterns":[
+                "How much of the fee we should pay for CSE-AI",
+                "fee for CSE-AI",
+                "fee for CSE(AI)",
+                "CSE-AI fee",
+                "CSE(AI) fee",
+                "How much of the fee we should pay for CSE(AI)",
+                "How much of the fee we should pay for Computer Science Engineering with AI",
+                "fee for Computer Science Engineering with AI"
+            ],
+            "responses":[
+                "fee for CSE-AI:120000"
+
+            ]
+        },
+        {
+            "tag":"MECH",
+            "patterns":[
+                "How much of the fee we should pay for Mechanical Engineering",
+                "fee for Mechanical",
+                "Mechanical fee",
+                "Mechanical fee.",
+                "Mech fee",
+                "fee for Mechanical Engineering"
+            ],
+            "responses":[
+                "fee for Mechanical: 50000"
+
+            ]
+        },
+        {
+            "tag":"CIVIL",
+            "patterns":[
+                "How much of the fee we should pay for Civil Engineering",
+                "fee for Civil Engineering",
+                "civil fee",
+                "fee for civil"
+            ],
+            "responses":[
+                "fee for civil:50000"
+
+            ]
+        },
+        {
+            "tag":"Faculty",
+            "patterns":[
+                "what type of faculty are here?",
+                "Faculty",
+                "Faculty.",
+                "faculty",
+                "faculty.",
+                "Does faculty have friendly relationship with students?"
+            ],
+            "responses":[
+                "We have best faculty here,Maximum of us are completed Masters in our fields.Every lecturer will show special interest on students who are poor in studies."
+            ]
+        },
+        {
+            "tag":"Placements",
+            "patterns":[
+                "What is your placement record?",
+                "Placements",
+                "placements",
+                "Placements.",
+                "placements.",
+                "Are MNC companies recruit these students.",
+                "Companies",
+                "companies",
+                "Companies visiting vits",
+                "Companies offering jobs",
+                "companies tie up with vits.",
+                "what is the average percentage of placements."
+            ],
+            "responses":[
+                "More than 50+ Companies like Lumen,Accenture,Ashling Partners,Aadhar,AMP,Clarivate,Hexaware,MindTree,Plintron,Infomerica,Hidden Brains,DXC Technology,WIPRO,CADSYS,Capgemini,Tech outs,ibssoftware,Tech Mahindra,ReNew Power,Virtusa,TCS,Tvarana,AmericanExpress,TIAA,Infosys,Persistent,Mphasis,Visitex,ALTEN,Reliance,Deloitte,ZENQ,ValueLabs,IBM,NTTData,HCL,Open,epam,ATOS Syntel,Big Works,Amadeus,Zop Smart,Smartsoc,Snovasys,Apps associates,Kreeti Technologies,vodafone  etc...Minimum 650 students placed every year,Our record is 30LPA.Top MNC's are came forward to recruit our students.The average salary package offered was 6 LPA."
+
+            ]
+        },
+        {
+            "tag":"Events",
+            "patterns":[
+                "What are events organizing in vits.",
+                "events in vits.",
+                "events.",
+                "Events"
+            ],
+            "responses":[
+                "Events organising in vits are:SPREE(Technical and Non-technical fest), VISVOTSAV(National Level Technical Symposium),ANNUAL DAY."
+
+            ]
+        },
+        {
+            "tag":"Hostel",
+            "patterns":[
+                "Is hostel facility there?",
+                "Hostel",
+                "hostel",
+                "Is boys and girls hostels are seperate?",
+                "Is A/C facility is there in hostels."
+            ],
+            "responses":[
+                "We have both girls and boys hostels seperately.For girls,We have both A/C and Non A/C rooms,it is an additional facility."
+            ]
+        },{
+            "tag":"Hostel Fee",
+            "patterns":[
+                "How much is the hostel fee?",
+                "How much amount we should pay for hostel?",
+                "Hostel fee for girls.",
+                "Hostel fee for boys.",
+                "Hostel fee for girls",
+                "Hostel fee",
+                "hostel fee",
+                "Hostel fee for boys"
+            ],
+            "responses":[
+                "For boys: 55000\nFor girls:(A/C:60,000 and NON-A/C:60,000+monthly current bill)."
+
+            ]
+        }
+    ]
+}
